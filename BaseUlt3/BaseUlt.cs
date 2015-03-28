@@ -109,7 +109,7 @@ The idea where the lines come from is that u can calculate how far they are from
             AppDomain.CurrentDomain.ProcessExit += CurrentDomain_DomainUnload;
 
             if (compatibleChamp)
-                Game.OnGameUpdate += Game_OnGameUpdate;
+                Game.OnUpdate += Game_OnGameUpdate;
 
             ShowNotification("BaseUlt3 by Beaving - Loaded", NotificationColor, 3000);
         }
